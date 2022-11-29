@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Patrick Hand', cursive;
+    /* outline: 1px solid red; */
+    font-size: large;
+}
+
+/* Estilizando NAVBAR */
+
+nav {
+    height: 40px;
+    padding: 1% 15%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    width: 58%;
+    display: flex;
+    align-items: center;
+
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    width: 100px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #17a2b8;
+}
+
+.active {
+    font-weight: 900;
+}
+
+/* Estilizando el contenedor main principal*/
+main {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 40px auto;
+    /* background-color: gray; */
+}
+
+/* Contenidos del main */
+section {
+    /* width: 58%; */
+    flex: 2;
+
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+    /* width: 39%; */
+}
+
+article,
+.aside-section {
+    margin-bottom: 40px;
+    /* border: 1px solid gray; */
+}
+
+/* Headers en general */
+header {
+    height: 60px;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header p, .aside-item p, .aside-footer a {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+/* Tarjeta de usuario */
+#header-user {
+    height: 100px;
+    background-color: #17a2b8;
+    /* margin-bottom: 35px; */
+    /* De los 55 que era el margen que es la mitad del icon le reste los 20px que tiene el h1*/
+}
+
+#user-icon {
+    height: 100px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin-top: 95px;
+    /*40 margin con navbar y 55 con header*/
+}
+
+.card-body,
+.aside-body,
+.aside-footer {
+    padding: 20px;
+    border: 3px solid gray;
+    border-top: none ;
+}
+
+
+.card-body h3,
+.card-body p {
+    margin-bottom: 10px;
+}
+
+.card-body h2{
+    margin-top: 30px;
+}
+
+
+
+.text-muted{
+    color: #6c757d
+}
+
+.icon {
+    height: 18px;
+}
+
+
+/* Estilizando los aside, img para icono de user */
+.notification {
+    padding: 0 12px;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: black;
+}
+
+.aside-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.aside-item{
+    display: flex;
+}
+
+.aside-body > .aside-item{
+    margin-bottom: 20px;
+}
+
+.aside-content:last-child,
+.aside-body > .aside-item:last-child{
+    margin-bottom: 0;
+}
+
+
+.aside-item img, .user-profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.aside-footer{
+    border-top: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
